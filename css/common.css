@@ -1,15 +1,16 @@
 .container {
   margin: 0 5vw;
+  padding-top: 60px;
 }
 .inner {
-  padding: 40px 15px;
+  padding: 40px 40px;
 }
 .inner p {
   max-width: 850px;
 }
 .demo {
-  background-color: var(--bg-color-primary-normal);
-}
+  background-color: black;
+
 .code {
   width: 50%;
 }
