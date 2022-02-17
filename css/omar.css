@@ -3,6 +3,13 @@
     padding-top: 20px;
   }
   
+  obold {
+    margin-bottom: 2rem;
+    line-height: 1rem;
+    letter-spacing: 0.75px;
+    font-weight: bold;
+  }
+
   o1 {
     font-size: 2rem;
     margin-bottom: 15rem;
@@ -28,3 +35,34 @@
     margin-bottom: 2rem;
     line-height: 1rem;
     letter-spacing: 0.75px;
+  }
+
+
+  o1b {
+    font-size: 2rem;
+    margin-bottom: 15rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  o2n {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: yellow;
+    font-weight: normal;
+  }
+  o1vn {
+    font-size: 2rem;
+    margin-bottom: 15rem;
+    color: white;
+    font-variant: normal;
+
+  }
+
+  o2vs {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: yellow;
+    font-variant: small-caps;
+
+  }
