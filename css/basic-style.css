@@ -1,19 +1,19 @@
 :root {
-  --color-primary-normal: #000;
-  --color-primary-hover: #0000ff;
+  --color-primary-black: #000;
+  --color-primary-white: #fff;
+  --color-primary-hover: yellow;
 
-  --bg-color-primary-normal: #858585;
+  --bg-color-primary-normal: #000;
+  --bg-color-white: #fff;
 
   --border-color: #00ff00;
 }
 
 body {
-  font-family: serif;
   font-size: 16px;
   box-sizing: border-box;
-  color: var(--color-primary-normal);
-  font-family: 'Zen Kaku Gothic Antique';
-
+  color: var(--color-primary-black);
+  font-family: "Zen Kaku Gothic Antique";
 }
 h1 {
   font-size: 3rem;
@@ -25,7 +25,7 @@ h2 {
 h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: white;
+  color: var(--color-primary-white);
 }
 p {
   margin-bottom: 2rem;
@@ -40,7 +40,7 @@ img {
 }
 a {
   display: block;
-  color: var(--color-primary-normal);
+  color: var(--color-primary-white);
   text-decoration: none;
 }
 a:hover {
@@ -53,7 +53,7 @@ a:hover {
 /* header area */
 header {
   padding: 10px 5%;
-  background: var(--color-primary-normal);
+  background-color: var(--color-primary-black);
   align-items: center;
   position: fixed;
   width: 100%;
@@ -70,13 +70,12 @@ nav a {
   text-transform: uppercase;
   color: white;
   font-style: 32px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
-  color: yellow;
   transform: scale(1.2);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 nav li {
@@ -84,12 +83,12 @@ nav li {
 }
 
 .current-page {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--color-primary-white);
   padding-bottom: 6px;
 }
 
 .current-page:hover {
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid var(--color-primary-hover);
 }
 
 .logo {
