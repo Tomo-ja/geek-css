@@ -5,79 +5,97 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- -----FAVICON----- -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- -----FAVICON----- -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	
+	<!-- -----GOOGLE FONT----- -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Redressed&family=Zen+Kaku+Gothic+Antique:wght@300;700&display=swap" rel="stylesheet">
 
-    <!-- -----GOOGLE FONT----- -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Zen+Kaku+Gothic+Antique:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/basic-style.css">
+	<link rel="stylesheet" href="./css/index.css">
 
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/index.css">
-
-	<title>Geeks CSS</title>
+	<title>Geeks {CSS}</title>
 
 </head>
 <body>
-	<header>
+	<header class="flex">
 		<div class="logo">
-			<a href="index.html"><img src="" alt=""></a>
+			<a href="index.html"><img src="./img/logo-geeks-css.png" alt="Logo"></a>
 		</div>
 		<nav>
-			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a href="">emir</a></li>
-				<li><a href="">omar</a></li>
-				<li><a href="">vini</a></li>
-				<li><a href="">tomo</a></li>
+			<ul class="flex">
+				<li class="current-page"><a href="#">home</a></li>
+				<li><a href="./view/vini.html">vini</a></li>
+				<li><a href="./view/tomo.html">tomo</a></li>
+				<li><a href="./view/omar.html">omar</a></li>
+				<li><a href="./view/emir.html">emir</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<div class="hero">
-			<div></div>
+		<div class="hero flex">
+			<h1>Learn how to be <br> geek {css} with us</h1>
 		</div>
-		<div class="container">
-			<section class="flex">
-				<div class="preview"><img src="" alt=""></div>
-				<div class="content">
-					<h2></h2>
+		<section class="flex">
+			<div class="preview"><img src="./img/placehold.png" alt=""></div>
+			<div class="content">
+				<div class="inner-text flex">
+					<h2>Vini</h2>
 					<p>
-
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti eius ipsam quo unde blanditiis tempora mollitia natus. Consequatur, in repellat?
 					</p>
+					<div>
+						<a href="">Learn more...</a>
+					</div>
 				</div>
-			</section>
-			<section class="flex">
-				<div class="preview"><img src="" alt=""></div>
-				<div class="content">
-					<h2></h2>
+			</div>
+		</section>
+		<section class="flex flex-reverse">
+			<div class="preview"><img src="./img/placehold.png" alt=""></div>
+			<div class="content">
+				<div class="inner-text flex">
+					<h2>Tomo</h2>
 					<p>
-						
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti eius ipsam quo unde blanditiis tempora mollitia natus. Consequatur, in repellat?
 					</p>
+					<div>
+						<a href="">Learn more...</a>
+					</div>
 				</div>
-			</section>
-			<section class="flex">
-				<div class="preview"><img src="" alt=""></div>
-				<div class="content">
-					<h2></h2>
+			</div>
+		</section>
+		<section class="flex">
+			<div class="preview"><img src="./img/placehold.png" alt=""></div>
+			<div class="content">
+				<div class="inner-text flex">
+					<h2>Omar</h2>
 					<p>
-						
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti eius ipsam quo unde blanditiis tempora mollitia natus. Consequatur, in repellat?
 					</p>
+					<div>
+						<a href="">Learn more...</a>
+					</div>
 				</div>
-			</section>
-			<section class="flex">
-				<div class="preview"><img src="" alt=""></div>
-				<div class="content">
-					<h2></h2>
+			</div>
+		</section>
+		<section class="flex flex-reverse">
+			<div class="preview"><img src="./img/placehold.png" alt=""></div>
+			<div class="content">
+				<div class="inner-text flex">
+					<h2>Emir</h2>
 					<p>
-						
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti eius ipsam quo unde blanditiis tempora mollitia natus. Consequatur, in repellat?
 					</p>
+					<div>
+						<a href="">Learn more...</a>
+					</div>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
 	</main>
 </body>
 </html>

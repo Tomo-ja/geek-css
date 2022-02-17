@@ -1,0 +1,24 @@
+.container {
+  margin: 0 5vw;
+  padding-top: 60px;
+}
+.inner {
+  padding: 40px 40px;
+}
+.inner p {
+  max-width: 850px;
+}
+.demo {
+  background-color: black;
+}
+.code {
+  width: 50%;
+}
+.code p {
+  padding: 15px 10%;
+  border-left: 7.5px solid var(--border-color);
+  background-color: #fff;
+}
+.sample {
+  margin: 0 auto;
+}
