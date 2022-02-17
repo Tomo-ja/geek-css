@@ -12,6 +12,8 @@ body {
   font-size: 16px;
   box-sizing: border-box;
   color: var(--color-primary-normal);
+  font-family: 'Zen Kaku Gothic Antique';
+
 }
 h1 {
   font-size: 3rem;
@@ -21,8 +23,9 @@ h2 {
   margin-bottom: 2rem;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
+  color: white;
 }
 p {
   margin-bottom: 2rem;
@@ -50,8 +53,11 @@ a:hover {
 /* header area */
 header {
   padding: 10px 5%;
-  background: #c4c4c4;
+  background: var(--color-primary-normal);
   align-items: center;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 20px;
 }
 nav {
   width: 80%;
@@ -62,14 +68,30 @@ ul {
 }
 nav a {
   text-transform: uppercase;
+  color: white;
+  font-style: 32px;
+  transition: all .2s ease-in-out;
+}
+
+nav a:hover {
+  color: yellow;
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
 }
 
 nav li {
-  margin-left: 25px;
+  margin: 0 20px;
 }
+
 .current-page {
-  border-bottom: 2px solid #ff00ff;
+  border-bottom: 2px solid white;
+  padding-bottom: 6px;
 }
+
+.current-page:hover {
+  border-bottom: 2px solid yellow;
+}
+
 .logo {
-  width: 100px;
+  width: 200px;
 }
