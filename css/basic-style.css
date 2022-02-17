@@ -13,6 +13,7 @@ body {
   box-sizing: border-box;
   color: var(--color-primary-normal);
   font-family: 'Zen Kaku Gothic Antique';
+
 }
 h1 {
   font-size: 3rem;
