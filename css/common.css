@@ -9,15 +9,15 @@
   max-width: 850px;
 }
 .demo {
-  background-color: black;
-
+  background-color: var(--bg-color-primary-normal);
+}
 .code {
   width: 50%;
 }
 .code p {
   padding: 15px 10%;
   border-left: 7.5px solid var(--border-color);
-  background-color: #fff;
+  background-color: var(--bg-color-white);
 }
 .sample {
   margin: 0 auto;
