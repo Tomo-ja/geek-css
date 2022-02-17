@@ -1,0 +1,30 @@
+.containerOS {
+    margin: 0 5vw;
+    padding-top: 20px;
+  }
+  
+  o1 {
+    font-size: 2rem;
+    margin-bottom: 15rem;
+    font-style: normal;
+    color: white;
+  }
+
+  o2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    color: yellow
+  }
+
+  o3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-style: oblique;
+    color: green;
+  }
+
+  po {
+    margin-bottom: 2rem;
+    line-height: 1rem;
+    letter-spacing: 0.75px;
