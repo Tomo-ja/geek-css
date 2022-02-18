@@ -97,3 +97,7 @@ nav li {
 .logo {
   width: 200px;
 }
+
+strong{
+  font-weight: bold;
+}
