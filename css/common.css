@@ -1,6 +1,5 @@
 .container {
   margin: 0 5vw;
-  padding-top: 60px;
 }
 .inner {
   padding: 40px 40px;
@@ -12,13 +11,8 @@
   background-color: var(--bg-color-primary-normal);
 }
 .code {
-  width: 50%;
+  width: 100%;
 }
 .code p {
   padding: 15px 10%;
-  border-left: 7.5px solid var(--border-color);
-  background-color: var(--bg-color-white);
-}
-.sample {
-  margin: 0 auto;
 }
