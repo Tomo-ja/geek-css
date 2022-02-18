@@ -5,15 +5,16 @@
 .inner {
   padding: 40px 40px;
 }
-.inner p {
+/* .inner p {
   max-width: 850px;
-}
+} */
 .demo {
-  background-color: black;
+  background-color: black;}
 
-.code {
-  width: 50%;
+.code{
+  width: 50%
 }
+
 .code p {
   padding: 15px 10%;
   border-left: 7.5px solid var(--border-color);
