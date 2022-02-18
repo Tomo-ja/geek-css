@@ -9,10 +9,10 @@
   max-width: 850px;
 } */
 .demo {
-  background-color: black;}
+  background-color:  var(--bg-color-primary-normal);;}
 
 .code{
-  width: 50%
+  width: 100%
 }
 
 .code p {
