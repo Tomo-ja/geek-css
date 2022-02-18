@@ -1,14 +1,15 @@
 h4 {
-    font-size: 2rem;
-    margin-bottom: 2rem
-
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
-.liste{
-    list-style-type: disc;
+.liste {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  list-style-type: disc;
 }
-.laf{
-    color: white;
+.laf {
+  color: white;
 }
-.codepen{
-    margin-left: 200px;
+.codepen {
+  margin-left: 200px;
 }
