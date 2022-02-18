@@ -29,6 +29,7 @@ section {
   width: 50%;
   padding: 25px 0;
   text-align: center;
+  
 }
 .preview img {
   height: 300px;
@@ -36,6 +37,7 @@ section {
   object-fit: cover;
   object-position: top center;
   border-radius: 50%;
+  
 }
 .content {
   width: 50%;
@@ -52,4 +54,8 @@ section {
 .inner-text h2 {
   font-size: 3rem;
   font-weight: bold;
+}
+.cyan{
+  background-color: aqua;
+  color: black;
 }

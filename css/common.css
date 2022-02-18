@@ -7,15 +7,17 @@ main section:first-child {
 .inner {
   padding: 40px 40px;
 }
-.inner p {
+/* .inner p {
   max-width: 850px;
-}
+} */
 .demo {
+
   background-color: var(--bg-color-primary-normal);
 }
 .code {
   width: 100%;
 }
+
 .code p {
   padding: 15px 10%;
 }
