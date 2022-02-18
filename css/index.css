@@ -6,7 +6,7 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url("../img/main-banner.jpeg");
+  background-image: url("../img/bg_index_main-banner.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -16,26 +16,31 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 5rem;
-  text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 section {
+  /* height: 350px; */
 }
 .flex-reverse {
   flex-direction: row-reverse;
 }
-.preview {
+.self-photo {
   width: 50%;
   padding: 25px 0;
   text-align: center;
 }
-.preview img {
+.self-photo img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: top center;
   border-radius: 50%;
 }
 .content {
   width: 50%;
   background-color: black;
-
 }
 .inner-text {
   height: 100%;
@@ -45,6 +50,6 @@ section {
   color: white;
 }
 
-.inner-text h2{
+.inner-text h2 {
   font-size: 3rem;
 }
