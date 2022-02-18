@@ -1,0 +1,103 @@
+:root {
+  --color-primary-black: #000;
+  --color-primary-white: #fff;
+  --color-primary-hover: yellow;
+
+  --bg-color-primary-normal: #000;
+  --bg-color-white: #fff;
+
+  --border-color: #00ff00;
+}
+
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  color: var(--color-primary-black);
+  font-family: "Zen Kaku Gothic Antique";
+  /* margin-bottom: 300px; */
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-primary-white);
+}
+p {
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.75px;
+  font-size: 1.25rem;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+a {
+  display: block;
+  color: var(--color-primary-white);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: var(--color-primary-hover);
+}
+.flex {
+  display: flex;
+}
+
+/* header area */
+header {
+  padding: 10px 5%;
+  background-color: var(--color-primary-black);
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 20px;
+}
+nav {
+  width: 80%;
+}
+ul {
+  width: 100%;
+  justify-content: center;
+}
+nav a {
+  text-transform: uppercase;
+  color: white;
+  font-style: 32px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+.current-page {
+  border-bottom: 2px solid var(--color-primary-white);
+  padding-bottom: 6px;
+}
+
+.current-page:hover {
+  border-bottom: 2px solid var(--color-primary-hover);
+}
+
+.logo {
+  width: 200px;
+}
+
+strong{
+  font-weight: bold;
+}

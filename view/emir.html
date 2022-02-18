@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- -----FAVICON----- -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+	
+	<!-- -----GOOGLE FONT----- -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Redressed&family=Zen+Kaku+Gothic+Antique:wght@300;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/basic-style.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/emir.css">
+
+	<title>Geeks {CSS}</title>
+
+</head>
+<body>
+	<header class="flex">
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo-geeks-css.png" alt="logo"></a>
+		</div>
+		<nav>
+			<ul class="flex">
+				<li><a href="../index.html">home</a></li>
+				<li><a href="./vini.html">vini</a></li>
+				<li><a href="./tomo.html">tomo</a></li>
+				<li><a href="./omar.html">omar</a></li>
+				<li class="current-page"><a href="#">emir</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<div class="container">
+				<div class="inner">
+					<h2>Box-sizing</h2>
+					<p>
+						The box-sizing CSS property sets how the total width and height of an element is calculated.By default in the CSS box model, the width and height you assign to an element is applied only to the element's content box. If the element has any border or padding, this is then added to the width and height to arrive at the size of the box that's rendered on the screen. This means that when you set width and height, you have to adjust the value you give to allow for any border or padding that may be added. For example, if you have four boxes with width: 25%;, if any has left or right padding or a left or right border, they will not by default fit on one line within the constraints of the parent container.
+					</p>
+					<p>
+						The box-sizing property can be used to adjust this behavior:
+					</p>
+					<p>
+						Content-box gives you the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width, making the element wider than 100px.
+					</p>
+					<p>
+						Border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements.
+					</p>
+					<h4>
+						Values
+					</h4>
+					<p>
+					content-box: This is the initial and default value as specified by the CSS standard. The width and height properties include the content, but does not include the padding, border, or margin. For example, .box {width: 350px; border: 10px solid black;} renders a box that is 370px wide.
+					</p>
+					<p>
+					border-box:   The width and height properties include the content, padding, and border, but do not include the margin. Note that padding and border will be inside of the box. For example, .box {width: 350px; border: 10px solid black;} renders a box that is 350px wide, with the area for content being 330px wide. The content box can't be negative and is floored to 0, making it impossible to use border-box to make the element disappear.
+					</p>
+					</div>
+				</div>
+			</div>
+			<div class="container demo">
+				<div class="inner">
+					<h3>How to apply</h3>
+					<div class="flex">
+						<div class="code">
+							<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="rNYpEro" data-user="emirarslann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+								<span>See the Pen <a href="https://codepen.io/emirarslann/pen/rNYpEro">
+								Untitled</a> by Emir Furkan Arslan (<a href="https://codepen.io/emirarslann">@emirarslann</a>)
+								on <a href="https://codepen.io">CodePen</a>.</span>
+							  </p>
+							  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+						
+						</div>
+		            </div>
+					<div class="flex">
+						<div class="code">
+							<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="rNYJaBg" data-user="emirarslann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+								<span>See the Pen <a href="https://codepen.io/emirarslann/pen/rNYJaBg">
+								Untitled</a> by Emir Furkan Arslan (<a href="https://codepen.io/emirarslann">@emirarslann</a>)
+								on <a href="https://codepen.io">CodePen</a>.</span>
+							  </p>
+							  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="inner">
+					<h2>CSS Margins</h2>
+					<p>
+						The CSS margin properties are used to create space around elements, outside of any defined borders.With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+					</p>
+					<h4>
+						Margin - Individual Slides
+					</h4>
+					<p>
+						CSS has properties for specifying the margin for each side of an element:
+					</p>
+					<ol>
+						<li class="liste"> margin-top</li>
+						<li class="liste"> margin-right </li>
+						<li class="liste"> margin-bottom</li>
+						<li class="liste"> margin-left</li>
+					</ol>
+					<br>
+					<p>
+						All the margin properties can have the following values:
+					</p>
+                    <ol>
+						<li class="liste"> auto - the browser calculates the margin</li>
+                        <li class="liste"> length - specifies a margin in px, pt, cm, etc.</li>
+						<li class="liste"> & - specifies a amargin in % of the width of the containig elements</li>
+						<li class="liste"> inherit - specifies that the margin should be inherited from the parent element</li>
+					</ol>				
+				</div>
+
+			</div>
+			<div class="container demo">
+				<div class="inner">
+					<h3>How to apply</h3>
+					<p class="laf">Set different margins for all four sides of a p element;</p>
+					<div class="flex">
+						<div class="code">
+							<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzEePzp" data-user="emirarslann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+								<span>See the Pen <a href="https://codepen.io/emirarslann/pen/YzEePzp">
+								Untitled</a> by Emir Furkan Arslan (<a href="https://codepen.io/emirarslann">@emirarslann</a>)
+								on <a href="https://codepen.io">CodePen</a>.</span>
+							  </p>
+							  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="inner">
+					<h2>CSS Padding</h2>
+					<p>Padding is used to create space around an element's content, inside of any defined borders.The CSS padding properties are used to generate space around an element's content, inside of any defined borders.With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).</p>
+				    <h4>Padding - Individual Sides</h4>
+					<p>CSS has properties for specifying the padding for each side of an element:</p>
+					<ol>
+						<li class="liste"> paddin-top</li>
+						<li class="liste"> padding-right</li>
+						<li class="liste"> padding-bottom</li>
+						<li class="liste"> padding-left</li>
+					</ol>
+					<br><p>All the padding properties can have the following values:</p>
+					<ol>
+						<li class="liste"> length - specifies a padding in px, pt, cm, etc.</li>
+						<li class="liste"> % - specifies a padding in % of the width of the containing element</li>
+						<li class="liste"> inherit - specifies that the padding should be inherited from the parent element</li>
+					</ol>
+				</div>
+			</div>
+			<div class="container demo">
+				<div class="inner">
+					<h3>How to apply</h3>
+					<div class="flex">
+						<div class="code">
+							<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYPRxYg" data-user="emirarslann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+								<span>See the Pen <a href="https://codepen.io/emirarslann/pen/zYPRxYg">
+								Untitled</a> by Emir Furkan Arslan (<a href="https://codepen.io/emirarslann">@emirarslann</a>)
+								on <a href="https://codepen.io">CodePen</a>.</span>
+							  </p>
+							  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="inner">
+					<h2>Border</h2>
+					<p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+					<h4>CSS Border Style</h4>
+					<p>The border-style property specifies what kind of border to display.The following values are allowed:</p>
+					<ol>
+						<li class="liste"> dotted - Defines a dotted border</li>
+						<li class="liste"> dashed - Defines a dashed border</li>
+						<li class="liste"> solid - Defines a solid border</li>
+						<li class="liste"> double - Defines a double border</li>
+						<li class="liste"> groove - Defines a 3D grooved border. The effect depends on the border-color value</li>
+						<li class="liste"> ridge - Defines a 3D ridged border. The effect depends on the border-color value</li>
+						<li class="liste"> inset - Defines a 3D inset border. The effect depends on the border-color value</li>
+						<li class="liste"> outset - Defines a 3D outset border. The effect depends on the border-color value</li>
+						<li class="liste"> none - Defines no border</li>
+						<li class="liste"> hidden - Defines a hidden border</li>
+						<br>
+						<p>The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+					</ol>
+				</div>
+			</div>
+			<div class="container demo">
+				<div class="inner">
+					<h3>How to apply</h3>
+					<div class="flex">
+						<div class="code">
+							<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzEePWZ" data-user="emirarslann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+								<span>See the Pen <a href="https://codepen.io/emirarslann/pen/YzEePWZ">
+								Untitled</a> by Emir Furkan Arslan (<a href="https://codepen.io/emirarslann">@emirarslann</a>)
+								on <a href="https://codepen.io">CodePen</a>.</span>
+							  </p>
+							  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+</body>
+</html>

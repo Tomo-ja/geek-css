@@ -1,0 +1,23 @@
+main section:first-child {
+  padding-top: 75px;
+}
+.container {
+  margin: 0 5vw;
+}
+.inner {
+  padding: 40px 40px;
+}
+/* .inner p {
+  max-width: 850px;
+} */
+.demo {
+
+  background-color: var(--bg-color-primary-normal);
+}
+.code {
+  width: 100%;
+}
+
+.code p {
+  padding: 15px 10%;
+}
